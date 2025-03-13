@@ -17,12 +17,9 @@ char** strSplit(char* str, const char* delim);
 
 void strArrFree(char** arr);
 
-int strArrLen(char** arr);
-
 void executeCommand(char* prog, char** args); // args must be NULL terminated.
 
 int main() {
-    // Code copied from shell notes.
     // Handle input
     char buffer[BUFSIZE];
     while (1) {
@@ -263,15 +260,4 @@ void strArrFree(char** arr) {
     }
     if (arr == NULL) exit(EXIT_FAILURE);
     free(arr);
-}
-
-int strArrLen(char** arr) {
-    if (arr == NULL) return 0;
-    int count = 0;
-    int i = 0;
-    while (arr[i] != NULL) {
-        count++;
-        i++;
-    }
-    return count;
 }
