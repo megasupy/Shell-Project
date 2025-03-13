@@ -13,7 +13,7 @@ Created as part of my Systems Software class.
 ## Supported Commands
 * Anything in the $PATH. This does not yet include cd.
 
-# Intallation Instructions
+## Installation Instructions
 1. Clone the repository
 2. run the "make" command
 3. run ./mysh
