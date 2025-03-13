@@ -16,4 +16,4 @@ Created as part of my Systems Software class.
 ## Installation Instructions
 1. Clone the repository
 2. run the "make" command
-3. run ./mysh
+3. run ./shell
